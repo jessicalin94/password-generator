@@ -1,0 +1,102 @@
+/* colors */
+
+/* night */
+/* color: #2B283A; */
+
+html, body {
+    margin: 30px auto 64px auto;
+    padding: 0;
+    width: 550px;
+    height: 550px;
+    background-color: #1C1C1C;
+    font-family: Inter, sans-serif;
+}
+
+.card {
+    background-color: #ECFDF5;
+    height: 550px;
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 113px;
+    /* margin: 100px auto 100px auto; */
+}
+
+.content {
+    margin: 70px 52px 54px 52px;
+}
+
+h1 {
+    font-family: Karla, sans-serif;
+    color: #2B283A;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+p {
+    color: #6B7280;
+    margin-top: 0;
+    padding-bottom: 50px;
+    font-size: 20px;
+}
+
+button {
+    height: 39px;
+    width: 211px;
+    background-color: #273549;
+    border: none;
+    border-radius: 6px;
+    
+}
+
+button img {
+   color: #3F516B;
+   height: 5px;
+   width: 20px;
+   padding-bottom: 3px;
+}
+
+.generate-button {
+    background-color: #10B981;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    display: flex;
+    width: 223px;
+    height: 42px;
+    font-weight: 500px;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Inter, sans-serif;
+    margin-bottom: 10px;
+}
+
+.generate-button img {
+    width: 14px;
+    height: 18px;
+    /* color: #3F516B; */
+}
+
+.generated-passwords {
+    border-top: 1px solid #D5D4D8;
+    margin-top: 30px;
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    column-gap: 24px;
+    row-gap: 27px;
+    justify-items: center;
+    align-items: center; 
+    color: red;
+
+    /* text-decoration-color: #5DEF92;  */
+}
+
+.green-text {
+    color: #10B981;
+}
+
+input {
+    background-image: url("images/kebab-icon.png")
+}
